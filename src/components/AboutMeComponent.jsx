@@ -22,10 +22,10 @@ const AboutMeComponent = () => {
                 <Row className="justify-content-center align-items-center">
                     <Col className="about-me-text-section" xs={12} md={6} xl={6}>
                         <p>
-                            Hey there! I'm Sunny Shaban, a BSCS student at FAST-NUCES. I'm certified by Microsoft in AI engineering and hold certifications from MongoDB and IBM as a full stack developer. With over 25+ certifications in computer science, I've focused on projects involving OCR and NLP. 
+                            Hey there! I&apos;m Sunny Shaban, a BSCS student at FAST-NUCES. I&apos;m certified by Microsoft in AI engineering and hold certifications from MongoDB and IBM as a full stack developer. With over 25+ certifications in computer science, I&apos;ve focused on projects involving OCR and NLP.
                         </p>
                         <p>
-                            Currently, I'm working on a trespasser detection web app, aiming to integrate it with security systems for enhanced safety measures. In my role as a full stack developer, I've utilized React.js for front-end and Django for back-end on various projects. At Bytewise LTD, I'm honored to be a React and Next.js fellow.
+                            Currently, I&apos;m working on a trespasser detection web app, aiming to integrate it with security systems for enhanced safety measures. In my role as a full stack developer, I&apos;ve utilized React.js for front-end and Django for back-end on various projects. At Bytewise LTD, I&apos;m honored to be a React and Next.js fellow.
                         </p>
                     </Col>
                     <Col className="about-me-image-section" xs={6} md={6} xl={6}>

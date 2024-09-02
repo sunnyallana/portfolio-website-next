@@ -63,7 +63,7 @@ const BannerComponent = () => {
                             &nbsp;
                             <span className="word-jelly">
                                 <p className="jelly-effect">I</p>
-                                <p className="jelly-effect">'</p>
+                                <p className="jelly-effect">&apos;</p>
                                 <p className="jelly-effect">m</p>
                             </span>
                             &nbsp;
@@ -111,7 +111,7 @@ const BannerComponent = () => {
                                 <p className="jelly-effect">r</p>
                             </span>
                             &nbsp;
-                            <p className="jelly-effect">&</p>
+                            <p className="jelly-effect">&amp;</p>
                             &nbsp;
                             <span className="word-jelly">
                                 <p className="jelly-effect">A</p>
@@ -134,7 +134,7 @@ const BannerComponent = () => {
                             onClick={() => window.open('mailto:study.sunnyallana@gmail.com')}
                             aria-label="Send an email"
                         >
-                            <strong>Let’s Chat</strong>
+                            <strong>Let&rsquo;s Chat</strong>
                         </button>
                         
                         <span 

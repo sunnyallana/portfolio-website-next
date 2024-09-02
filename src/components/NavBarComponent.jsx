@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Image from 'next/image';
 
 const NavBarComponent = () => {
   const [scrolled, setScrolled] = useState(false);
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 10);
 
     const sections = ['home', 'skills', 'testimonials', 'projects'];
@@ -21,7 +21,7 @@ const NavBarComponent = () => {
     });
 
     setActiveLink(currentSection);
-  };
+  }, []);
 
   const setActiveLink = (value) => {
     const links = document.querySelectorAll('.navbar-link');
@@ -36,7 +36,7 @@ const NavBarComponent = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
